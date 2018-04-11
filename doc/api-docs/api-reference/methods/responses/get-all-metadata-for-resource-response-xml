@@ -1,0 +1,4 @@
+<metadata xmlns="http://docs.rackspace.com/metadata/api">
+    <meta key="billing:somekey">a value billing cares about</meta>
+    <meta key="support:level">navigator</meta>
+</metadata>

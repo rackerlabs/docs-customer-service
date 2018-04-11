@@ -1,0 +1,107 @@
+{
+  "customerAccount": [
+    {
+      "status": "Active",
+      "parentAccountNumber": 19293384931,
+      "link": [
+        {
+          "rel": "via",
+          "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/CLOUD/19293384938"
+        }
+      ],
+      "accessPolicy": "FULL",
+      "number": 19293384938,
+      "parentAccountId": "19293384931",
+      "type": "CLOUD",
+      "id": "19293384938",
+      "collectionsStatus": "CURRENT",
+      "rcn": "RCN-123-456-789",
+      "name": "Hubspot Accounting",
+      "serviceLevel": "Navigator",
+      "lastUpdatedBy": "user1",
+      "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
+    },
+    {
+      "status": "Active",
+      "nickname": "FreeLancer",
+      "parentAccountNumber": 19293384932,
+      "link": [
+        {
+          "rel": "via",
+          "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/5342823"
+        }
+      ],
+      "number": 5342823,
+      "parentAccountId": "19293384931",
+      "type": "MANAGED_HOSTING",
+      "id": "5342823",
+      "rcn": "RCN-123-456-789",
+      "name": "FreeLancer Corp",
+      "serviceLevel": "Navigator",
+      "lastUpdatedBy": "user1",
+      "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
+    },
+    {
+      "status": "Active",
+      "nickname": "Spot",
+      "parentAccountNumber": 19293384932,
+      "link": [
+        {
+          "rel": "via",
+          "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/75842823"
+        }
+      ],
+      "number": 75842823,
+      "parentAccountId": "19293384931",
+      "type": "MANAGED_HOSTING",
+      "id": "75842823",
+      "rcn": "RCN-123-456-789",
+      "name": "Spot Study",
+      "serviceLevel": "Navigator",
+      "lastUpdatedBy": "user1",
+      "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
+    },
+    {
+      "status": "Active",
+      "nickname": "Corp",
+      "parentAccountNumber": 19293384932,
+      "link": [
+        {
+          "rel": "via",
+          "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/CLOUD/RAN2823"
+        }
+      ],
+      "parentAccountId": "19293384931",
+      "type": "CLOUD",
+      "id": "RAN2823",
+      "rcn": "RCN-123-456-789",
+      "name": "Corp Accounts",
+      "serviceLevel": "Navigator",
+      "lastUpdatedBy": "user1",
+      "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
+    }
+  ],
+  "link": [
+    {
+      "rel": "CURRENT",
+      "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts"
+    },
+    {
+      "rel": "SELF",
+      "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=backward"
+    },
+    {
+      "rel": "PREVIOUS",
+      "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=forward&marker=CLOUD%3A19293384938"
+    },
+    {
+      "rel": "LAST",
+      "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=backward&marker=last"
+    },
+    {
+      "rel": "NEXT",
+      "href": "https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&marker=CLOUD%3A19293384938&direction=backward"
+    }
+  ]
+
+}

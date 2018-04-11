@@ -1,0 +1,14 @@
+{
+  "tenantId": "hybrid:5342823",
+  "status": "Active",
+  "nickname": "FreeLancer",
+  "accessPolicy": "FULL",
+  "number": 5342823,
+  "type": "MANAGED_HOSTING",
+  "id": "5342823",
+  "rcn": "RCN-123-456-789",
+  "name": "FreeLancer Corp",
+  "serviceLevel": "Navigator",
+  "lastUpdatedBy": "user1",
+  "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
+}

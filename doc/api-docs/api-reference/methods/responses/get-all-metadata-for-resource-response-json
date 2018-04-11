@@ -1,0 +1,6 @@
+{
+  "metadata": {
+    "billing:somekey": "a value billing cares about",
+    "support:level": "navigator"
+  }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:customerAccounts xmlns:ns1="http://customer.api.rackspace.com/v1"
+    xmlns:ns2="http://www.w3.org/2005/Atom"
+    xmlns:ns3="http://docs.rackspace.com/metadata/api" xmlns:ns4="http://customer-admin.api.rackspace.com/v1">
+    <link rel="current" href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts"/>
+    <link rel="self" href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&amp;direction=backward"/>
+    <link rel="previous" href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&amp;direction=forward&amp;marker=CLOUD%3A19293384938"/>
+    <link rel="last" href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&amp;direction=backward&amp;marker=last"/>
+    <link rel="next" href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts?limit=50&amp;marker=CLOUD%3A19293384938&amp;direction=backward"/>
+
+    <ns1:customerAccount accessPolicy="FULL" collectionsStatus="CURRENT"
+        id="19293384938" lastUpdatedBy="user1"
+        lastUpdatedDate="2015-04-21T18:00:00.000Z"
+        name="Hubspot Accounting" number="19293384938"
+        parentAccountId="19293384931" parentAccountNumber="19293384931"
+        rcn="RCN-123-456-789" status="Active" serviceLevel="Navigator" type="CLOUD">
+        <ns2:link
+            href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/CLOUD/19293384938" rel="via"/>
+    </ns1:customerAccount>
+    <ns1:customerAccount id="5342823" lastUpdatedBy="user1"
+        lastUpdatedDate="2015-04-21T18:00:00.000Z"
+        name="FreeLancer Corp" nickname="FreeLancer" number="5342823"
+        parentAccountId="19293384931" parentAccountNumber="19293384932"
+        rcn="RCN-123-456-789" status="Active" serviceLevel="Navigator" type="MANAGED_HOSTING">
+        <ns2:link
+            href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/5342823" rel="via"/>
+    </ns1:customerAccount>
+    <ns1:customerAccount id="75842823" lastUpdatedBy="user1"
+        lastUpdatedDate="2015-04-21T18:00:00.000Z" name="Spot Study"
+        nickname="Spot" number="75842823" parentAccountId="19293384931"
+        parentAccountNumber="19293384932" rcn="RCN-123-456-789"
+        status="Active" serviceLevel="Navigator" type="MANAGED_HOSTING">
+        <ns2:link
+            href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/75842823" rel="via"/>
+    </ns1:customerAccount>
+    <ns1:customerAccount id="RAN2823" lastUpdatedBy="user1"
+        lastUpdatedDate="2015-04-21T18:00:00.000Z" name="Corp Accounts"
+        nickname="Corp" parentAccountId="19293384931"
+        parentAccountNumber="19293384932" rcn="RCN-123-456-789"
+        status="Active" serviceLevel="Navigator" type="CLOUD">
+        <ns2:link
+            href="https://customer-internal.api.rackspacecloud.com/v1/customer_accounts/CLOUD/RAN2823" rel="via"/>
+    </ns1:customerAccount>
+</ns1:customerAccounts>
+

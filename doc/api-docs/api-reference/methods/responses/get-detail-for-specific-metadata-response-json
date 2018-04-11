@@ -1,0 +1,8 @@
+{
+  "createdBy": "service_account_user",
+  "lastUpdatedBy": "service_account_admin",
+  "value": "some_value",
+  "lastUpdatedDate": "2017-07-26T20:46:58.467Z",
+  "createdDate": "2017-04-26T20:46:58.467Z",
+  "key": "creation:faws:servicelevelid"
+}
