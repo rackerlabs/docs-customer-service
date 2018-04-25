@@ -1,5 +1,6 @@
 {
   "tenantId": "10101",
+  "domain": "10101",
   "status": "Active",
   "nickname": "MyRackspace",
   "number": 10101,

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ns1:customerAccount id="10101"
     lastUpdatedBy="user1" lastUpdatedDate="2015-04-21T18:00:00.000Z"
-    name="MyRackspaceAcct" nickname="MyRackspace" number="10101"
+    name="MyRackspaceAcct" nickname="MyRackspace" number="10101" domain="10101"
     rcn="RCN-123-456-789" status="Active" tenantId="10101" serviceLevel="navigator" type="CLOUD"
     xmlns:ns1="http://customer.api.rackspace.com/v1"
     xmlns:ns2="http://www.w3.org/2005/Atom"
