@@ -1,0 +1,131 @@
+{
+  "customerAccountHistory": [
+    {
+      "accountChangeType": "NEW",
+      "rcn": "RCN-000-000-001",
+      "updatedDate": "2012-12-31T18:00:00.000Z",
+      "accountStatus": "Active",
+      "updatedBy": {
+        "username": "abc123",
+        "type": "SYSTEM"
+      }
+    },
+    {
+      "accountChangeType": "COLLECTIONS_STATUS",
+      "collectionsStatus": "CURRENT",
+      "rcn": "RCN-000-000-001",
+      "updatedDate": "2012-12-31T18:01:00.000Z",
+      "accountStatus": "Active",
+      "accessPolicy": "FULL",
+      "updatedBy": {
+        "username": "abc456",
+        "type": "RACKER"
+      }
+    },
+    {
+      "accountChangeType": "RCN_UPDATE",
+      "collectionsStatus": "CURRENT",
+      "rcn": "RCN-000-000-002",
+      "updatedDate": "2013-01-31T18:00:00.000Z",
+      "accountStatus": "Active",
+      "accessPolicy": "FULL",
+      "destinationUpdatedBy": {
+        "username": "xyz123",
+        "type": "RACKER"
+      },
+      "updatedBy": {
+        "username": "abc456",
+        "type": "RACKER"
+      }
+    },
+    {
+      "accountChangeType": "RCN_UPDATE",
+      "collectionsStatus": "CURRENT",
+      "rcn": "RCN-000-000-003",
+      "updatedDate": "2013-06-30T18:00:00.000Z",
+      "accountStatus": "Active",
+      "accessPolicy": "FULL",
+      "destinationUpdatedBy": {
+        "username": "xyz123",
+        "type": "RACKER"
+      },
+      "updatedBy": {
+        "username": "john09877",
+        "type": "CUSTOMER"
+      }
+    },
+    {
+      "accountChangeType": "COLLECTIONS_STATUS",
+      "collectionsStatus": "DELINQUENT_LEVEL_1",
+      "rcn": "RCN-000-000-003",
+      "updatedDate": "2013-07-30T18:00:00.000Z",
+      "accountStatus": "Active",
+      "accessPolicy": "FULL",
+      "updatedBy": {
+        "username": "abc2222",
+        "type": "RACKER"
+      }
+    },
+    {
+      "accountChangeType": "COLLECTIONS_STATUS",
+      "collectionsStatus": "DELINQUENT_LEVEL_2",
+      "rcn": "RCN-000-000-003",
+      "updatedDate": "2013-07-30T18:00:00.000Z",
+      "accountStatus": "Active",
+      "accessPolicy": "SUSPENDED",
+      "updatedBy": {
+        "username": "abc2223",
+        "type": "RACKER"
+      }
+    },
+    {
+      "accountChangeType": "COLLECTIONS_STATUS",
+      "collectionsStatus": "CURRENT",
+      "rcn": "RCN-000-000-003",
+      "updatedDate": "2013-08-30T18:00:00.000Z",
+      "accountStatus": "Active",
+      "accessPolicy": "FULL",
+      "updatedBy": {
+        "username": "abc2223",
+        "type": "RACKER"
+      }
+    },
+    {
+      "accountChangeType": "LEGACY_ACCOUNT_STATUS",
+      "collectionsStatus": "CURRENT",
+      "rcn": "RCN-000-000-003",
+      "updatedDate": "2013-09-30T18:00:00.000Z",
+      "accountStatus": "Closed",
+      "accessPolicy": "SUSPENDED",
+      "updatedBy": {
+        "username": "abc2224",
+        "type": "RACKER"
+      }
+    },
+    {
+      "accountChangeType": "COLLECTIONS_STATUS",
+      "collectionsStatus": "WRITTEN_OFF",
+      "rcn": "RCN-000-000-003",
+      "updatedDate": "2013-09-30T18:00:00.000Z",
+      "accountStatus": "Closed",
+      "accessPolicy": "TERMINATED",
+      "updatedBy": {
+        "username": "abc2224",
+        "type": "RACKER"
+      }
+    },
+    {
+      "accountChangeType": "NICKNAME",
+      "collectionsStatus": "WRITTEN_OFF",
+      "rcn": "RCN-000-000-003",
+      "nickname": "rackspace",
+      "updatedDate": "2013-09-30T18:00:00.000Z",
+      "accountStatus": "Closed",
+      "accessPolicy": "TERMINATED",
+      "updatedBy": {
+        "username": "abc2224",
+        "type": "RACKER"
+      }
+    }
+  ]
+}

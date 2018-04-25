@@ -1,0 +1,14 @@
+chios
+doc8
+markdown
+pandoc
+pyenchant
+recommonmark
+restructuredtext-lint
+# Still in development:
+# sphinxcontrib-pandoc-markdown
+sphinxcontrib-spelling
+sphinxcontrib-versioning
+sphinx
+sphinx-rtd-theme
+tox
