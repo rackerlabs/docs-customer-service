@@ -17,7 +17,7 @@
       "collectionsStatus": "CURRENT",
       "rcn": "RCN-123-456-789",
       "name": "Counting Accounting",
-      "serviceLevel": "navigator",
+      "serviceLevel": "managed_legacy",
       "lastUpdatedBy": "user1",
       "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
     },
@@ -37,7 +37,7 @@
       "id": "5342823",
       "rcn": "RCN-123-456-789",
       "name": "Super Duper Paper",
-      "serviceLevel": "navigator",
+      "serviceLevel": "intensive",
       "lastUpdatedBy": "user1",
       "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
     },
@@ -57,7 +57,7 @@
       "id": "75842823",
       "rcn": "RCN-123-456-789",
       "name": "Spot Study",
-      "serviceLevel": "navigator",
+      "serviceLevel": "intensive",
       "lastUpdatedBy": "user1",
       "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
     },
@@ -76,7 +76,7 @@
       "domain": "RAN2823",
       "rcn": "RCN-123-456-789",
       "name": "Corp Accounts",
-      "serviceLevel": "navigator",
+      "serviceLevel": "managed_legacy",
       "lastUpdatedBy": "user1",
       "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
     }

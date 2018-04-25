@@ -12,14 +12,14 @@
         id="19293384938" lastUpdatedBy="user1" tenantId="19293384938"
         domain="19293384938" lastUpdatedDate="2015-04-21T18:00:00.000Z"
         name="Hubspot Accounting" number="19293384938"
-        rcn="RCN-123-456-789" status="Active" serviceLevel="navigator" type="CLOUD">
+        rcn="RCN-123-456-789" status="Active" serviceLevel="managed_legacy" type="CLOUD">
         <ns2:link
             href="https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/19293384938" rel="via"/>
     </ns1:customerAccount>
     <ns1:customerAccount id="5342823" lastUpdatedBy="user1" tenantId="hybrid:5342823"
         domain="dedicated:5342823" lastUpdatedDate="2015-04-21T18:00:00.000Z"
         name="FreeLancer Corp" nickname="FreeLancer" number="5342823"
-        rcn="RCN-123-456-789" status="Active" serviceLevel="navigator" type="MANAGED_HOSTING">
+        rcn="RCN-123-456-789" status="Active" serviceLevel="intensive" type="MANAGED_HOSTING">
         <ns2:link
             href="https://customer.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/5342823" rel="via"/>
     </ns1:customerAccount>
@@ -27,7 +27,7 @@
         tenantId="hybrid:75842823" domain="dedicated:75842823"
         lastUpdatedDate="2015-04-21T18:00:00.000Z" name="Spot Study"
         nickname="Spot" number="75842823" rcn="RCN-123-456-789"
-        status="Active" serviceLevel="navigator" type="MANAGED_HOSTING">
+        status="Active" serviceLevel="intensive" type="MANAGED_HOSTING">
         <ns2:link
             href="https://customer.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/75842823" rel="via"/>
     </ns1:customerAccount>
@@ -35,7 +35,7 @@
         tenantId="RAN2823" domain="RAN2823"
         lastUpdatedDate="2015-04-21T18:00:00.000Z" name="Corp Accounts"
         nickname="Corp" rcn="RCN-123-456-789"
-        status="Active" serviceLevel="navigator" type="CLOUD">
+        status="Active" serviceLevel="managed_legacy" type="CLOUD">
         <ns2:link
             href="https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/RAN2823" rel="via"/>
     </ns1:customerAccount>
