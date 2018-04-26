@@ -1,14 +1,14 @@
 {
   "tenantId": "10101",
+  "domain": "10101",
   "status": "Active",
   "nickname": "MyRackspace",
-  "accessPolicy": "FULL",
   "number": 10101,
   "type": "CLOUD",
   "id": "10101",
   "rcn": "RCN-123-456-789",
   "name": "MyRackspaceAcct",
-  "serviceLevel": "Navigator",
+  "serviceLevel": "managed_legacy",
   "lastUpdatedBy": "user1",
   "lastUpdatedDate": "2015-04-21T18:00:00.000Z"
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns1:customerAccount accessPolicy="FULL" id="5342823"
+<ns1:customerAccount id="5342823"
     lastUpdatedBy="user1" lastUpdatedDate="2015-04-21T18:00:00.000Z"
     name="FreeLancer Corp" nickname="FreeLancer" number="5342823"
     rcn="RCN-123-456-789" status="Active" tenantId="hybrid:5342823"
-    serviceLevel="Navigator" type="MANAGED_HOSTING"
+    serviceLevel="intensive" type="MANAGED_HOSTING" domain="dedicated:5342823"
     xmlns:ns1="http://customer.api.rackspace.com/v1"
     xmlns:ns2="http://www.w3.org/2005/Atom"
     xmlns:ns3="http://docs.rackspace.com/metadata/api" xmlns:ns4="http://customer-admin.api.rackspace.com/v1"/>
