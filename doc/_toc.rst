@@ -4,5 +4,5 @@
    :includehidden:
    :maxdepth: 99
 
-   Docs Starter Kit (Sphinx Public GitHub)<self>
+   Rackspace Customer Service Management <self>
    index.rst
