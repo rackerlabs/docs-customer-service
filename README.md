@@ -1,5 +1,5 @@
 
-# Rackspace Customer Management Service API documentation - currently building in only in staging
+# Rackspace Customer Management Service API documentation 
 
 This repository contains the source files that generate the following
 Customer Management Service API documentation:
