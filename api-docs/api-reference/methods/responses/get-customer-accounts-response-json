@@ -6,7 +6,8 @@
       "link": [
         {
           "rel": "via",
-          "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/19293384938"
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/19293384938"
         }
       ],
       "number": 19293384938,
@@ -27,7 +28,8 @@
       "link": [
         {
           "rel": "via",
-          "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/5342823"
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/5342823"
         }
       ],
       "number": 5342823,
@@ -47,7 +49,8 @@
       "link": [
         {
           "rel": "via",
-          "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/75842823"
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/MANAGED_HOSTING/75842823"
         }
       ],
       "number": 75842823,
@@ -67,7 +70,8 @@
       "link": [
         {
           "rel": "via",
-          "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/RAN2823"
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/RAN2823"
         }
       ],
       "type": "CLOUD",
@@ -84,23 +88,28 @@
   "link": [
     {
       "rel": "CURRENT",
-      "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts"
+      "href":
+      "https://customer.api.rackspacecloud.com/v1/customer_accounts"
     },
     {
       "rel": "SELF",
-      "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=backward"
+      "href":
+      "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=backward"
     },
     {
       "rel": "PREVIOUS",
-      "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=forward&marker=CLOUD%3A19293384938"
+      "href":
+      "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=forward&marker=CLOUD%3A19293384938"
     },
     {
       "rel": "LAST",
-      "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=backward&marker=last"
+      "href":
+      "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&direction=backward&marker=last"
     },
     {
       "rel": "NEXT",
-      "href": "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&marker=CLOUD%3A19293384938&direction=backward"
+      "href":
+      "https://customer.api.rackspacecloud.com/v1/customer_accounts?limit=50&marker=CLOUD%3A19293384938&direction=backward"
     }
   ]
 

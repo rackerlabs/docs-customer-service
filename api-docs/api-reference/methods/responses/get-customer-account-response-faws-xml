@@ -7,4 +7,5 @@
     serviceLevel="navigator"
     xmlns:ns1="http://customer.api.rackspace.com/v1"
     xmlns:ns2="http://www.w3.org/2005/Atom"
-    xmlns:ns3="http://docs.rackspace.com/metadata/api" xmlns:ns4="http://customer-admin.api.rackspace.com/v1"/>
+    xmlns:ns3="http://docs.rackspace.com/metadata/api"
+    xmlns:ns4="http://customer-admin.api.rackspace.com/v1"/>

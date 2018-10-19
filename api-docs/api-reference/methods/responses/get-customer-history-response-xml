@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ns1:accountRCNChanges xmlns:ns1="http://customer.api.rackspace.com/v1"
     xmlns:ns2="http://www.w3.org/2005/Atom"
-    xmlns:ns3="http://docs.rackspace.com/metadata/api" xmlns:ns4="http://customer-admin.api.rackspace.com/v1">
+    xmlns:ns3="http://docs.rackspace.com/metadata/api"
+    xmlns:ns4="http://customer-admin.api.rackspace.com/v1">
     <ns1:accountRCNChange AccountChangeType="NEW"
-        date="2012-12-31T18:00:00.000Z" rcn="RCN-123-456-789" username="user0123"/>
+        date="2012-12-31T18:00:00.000Z" rcn="RCN-123-456-789"
+        username="user0123"/>
     <ns1:accountRCNChange AccountChangeType="RCN_UPDATE"
-        date="2012-12-31T18:00:00.000Z" rcn="RCN-000-000-001" username="john0987"/>
+        date="2012-12-31T18:00:00.000Z" rcn="RCN-000-000-001"
+        username="john0987"/>
     <ns1:accountRCNChange AccountChangeType="MERGE"
-        date="2012-12-15T18:00:00.000Z" rcn="RCN-000-000-002" username="john0987"/>
+        date="2012-12-15T18:00:00.000Z" rcn="RCN-000-000-002"
+        username="john0987"/>
 </ns1:accountRCNChanges>

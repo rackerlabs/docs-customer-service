@@ -128,7 +128,9 @@ scv_grm_exclude = ('.nojekyll', '.gitignore')
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build', 'samples', 'README.rst', 'README.md']
+exclude_patterns = ['_build', 'samples', 'README.rst', 'README.md',
+                    'api-reference/methods/*',
+                    'common-gs', 'getting-started/examples/*']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -161,6 +163,7 @@ extlinks = {
     ('http:/developer.rackspace.com/docs/%s/api-reference', ''),
     'rax-git': ('https://github.com/rackspace/%s', ''),
     'mycloud': ('https://mycloud.rackspace.com/%s', ''),
+    'myrack': ('https://my.rackspace.com/%s', ''),
     'rax-glossary': ('https://developer.rackspace.com/docs/glossary/%s', ''),
     'mycloud': ('https://mycloud.rackspace.com/%s', ''),
     'how-to': ('http://support.rackspace.com/how-to/%s', ''),

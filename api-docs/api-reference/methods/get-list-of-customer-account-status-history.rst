@@ -69,7 +69,11 @@ Response
 .. literalinclude:: methods/responses/get-customer-account-status-history-response-xml
    :language: xml
 
+NOTE THIS FILE IS NOT IN THE REPO.
+
 **JSON response:**
 
 .. literalinclude:: methods/responses/get-customer-account-status-history-response-json
    :language: json
+
+NOTE THIS FILE IS NOT IN THE REPO.
