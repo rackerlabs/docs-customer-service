@@ -1,40 +1,4 @@
-.DS_Store
-*.xpr
-.idea
-.eggs
-
-# Build results
-target/
-/publish-docs/
-/www/output/
-/generated/
-.doctrees
-
-_static
-
-build/
+*.DS_Store
 _build/
-/build-*.log.gz
-*.pdf
-glossary.rst
-*.mo
-
-# Python compiled files
-*.pyc
-
-# Ignore Vagrant Related Files
-acceptance_config.yml
-boxes/*
-/.vagrant
-
-# Testenvironment
+/bin/
 .tox/
-
-# Editors
-*~
-.*.swp
-.bak
-/.project
-
-# VirtualEnv
-ENV/
