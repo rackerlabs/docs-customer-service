@@ -74,7 +74,7 @@ master_doc = 'index'
 builder = 'deconst-serial'
 
 # Exclude content from elastic search index
-# deconst_default_unsearchable = True
+deconst_default_unsearchable = True
 
 # linkcheck options
 linkcheck_ignore = ['https://pages.github.rackspace.com*',
