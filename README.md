@@ -9,6 +9,7 @@ Customer Management Service API documentation:
 * API reference
 
 
+
 When you commit changes to the master branch of this repository, the
 [Strider CI/CD build job](https://build.developer.rackspace.com/rackerlabs/%/)
 builds the documentation. Successful builds are deployed to production.
