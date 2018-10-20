@@ -11,7 +11,9 @@ and complete basic operations by using the |api-service|.
 .. toctree::
    :maxdepth: 1
 
+   get-credentials-include
    send-request-ovw
+   authenticate
    concepts
 
 
