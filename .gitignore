@@ -2,3 +2,5 @@
 _build/
 /bin/
 .tox/
+.idea
+.iml
