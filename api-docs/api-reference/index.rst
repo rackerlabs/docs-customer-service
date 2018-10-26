@@ -12,4 +12,5 @@ to interact directly with the service.
    :maxdepth: 2
 
    ops-account-customer
+   ops-contact
 
