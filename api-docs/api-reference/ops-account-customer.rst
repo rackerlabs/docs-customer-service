@@ -17,8 +17,6 @@ This section covers the following customer account operations:
 - :ref:`Get a list of all metadata for a resource
   <get-list-of-all-metadata-for-resource>`
 - :ref:`Get specific metadata <get-specific-metadata>`
-- :ref:`Update specific metadata <update-specific-metadata>`
-- :ref:`Delete specific metadata <delete-specific-metadata>`
 - :ref:`Get details for specific metadata
   <get-details-for-specific-metadata>`
 
@@ -31,6 +29,4 @@ This section covers the following customer account operations:
 .. include:: methods/get-list-of-customer-account-history.rst
 .. include:: methods/get-list-of-all-metadata-for-resource.rst
 .. include:: methods/get-specific-metadata.rst
-.. include:: methods/update-specific-metadata.rst
-.. include:: methods/delete-specific-metadata.rst
 .. include:: methods/get-details-for-specific-metadata.rst

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:customerAccountStatusChanges
+    xmlns:ns1="http://customer.api.rackspace.com/v1"
+    xmlns:ns2="http://www.w3.org/2005/Atom"
+    xmlns:ns3="http://docs.rackspace.com/metadata/api" xmlns:ns4="http://customer-admin.api.rackspace.com/v1">
+    <ns1:statusChange accessPolicy="FULL"
+        collectionsStatus="DELINQUENT_LEVEL_1"
+        date="2012-12-31T18:00:00.000Z" fraudStatus="ACCEPT"
+        status="Active" username="testUserName" usertype="RACKER"/>
+    <ns1:statusChange accessPolicy="SUSPENDED"
+        collectionsStatus="DELINQUENT_LEVEL_2"
+        date="2012-10-02T00:23:00.000Z" fraudStatus="PENDING_APPROVAL"
+        status="Delinquent" username="testUserName1" usertype="CUSTOMER"/>
+    <ns1:statusChange date="2012-07-15T18:00:00.000Z"
+        status="Pending Approval" username="testUserName2" usertype="SYSTEM"/>
+</ns1:customerAccountStatusChanges>
