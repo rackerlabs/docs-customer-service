@@ -6,7 +6,7 @@ Rackspace |product name| API |contract version|
 
 *Last updated:* |today|
 
-The Rackspace |product name| service enables management of customer
+The Rackspace |product name| enables management of customer
 information through an application programming interface (API).
 
 This guide is intended to assist software developers who want to develop
