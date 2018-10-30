@@ -1,0 +1,61 @@
+{
+  "lastName": "Doe",
+  "contactNumber": "RPN-823-034-233",
+  "phoneNumbers": {
+    "phoneNumber": [
+      {
+        "mask": "(###)-###-####",
+        "number": "2103124600",
+        "smsVerify": false,
+        "primary": false,
+        "country": "US"
+      }
+    ]
+  },
+  "suffix": "Sr",
+  "username": "john0982",
+  "title": "Mr",
+  "rcn": "RCN-999-888-777",
+  "roles": {
+    "role": [
+      "BILLING"
+    ]
+  },
+  "lastUpdatedBy": "user1",
+  "lastUpdatedDate": "2015-04-21T18:00:00.000Z",
+  "addresses": {
+    "address": [
+      {
+        "zipcode": "78218",
+        "street": "5000 Walzem Road",
+        "primary": true,
+        "state": "Texas",
+        "country": "US",
+        "city": "San Antonio"
+      },
+      {
+        "zipcode": "78218",
+        "street": "5001 Walzem Road",
+        "state": "Texas",
+        "country": "US",
+        "city": "San Antonio"
+      }
+    ]
+  },
+  "notificationPreferences": {
+     "doNotFax": false,
+     "doNotCall": true,
+     "doNotEmail": false,
+     "doNotMail": true,
+     "doNotSurvey": false
+  },
+  "firstName": "John",
+  "emailAddresses": {
+    "emailAddress": [
+      {
+        "address": "john.user@example.com",
+        "primary": true
+      }
+    ]
+  }
+}

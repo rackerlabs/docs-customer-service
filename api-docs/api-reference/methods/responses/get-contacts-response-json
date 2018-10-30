@@ -1,0 +1,237 @@
+{
+  "link": [
+    {
+      "rel": "next",
+      "href":
+      "https://customer.api.rackspacecloud.comm/v1/customer_accounts/CLOUD/3784384/contacts"
+    }
+  ],
+  "contact": [
+    {
+      "lastName": "Jones",
+      "contactNumber": "RPN-000-111-007",
+      "link": [
+        {
+          "rel": "via",
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/3784384/contacts/RPN-000-111-007"
+        }
+      ],
+      "phoneNumbers": {
+        "phoneNumber": [
+          {
+            "mask": "(###)-###-####",
+            "number": "8374384343",
+            "smsVerify": false,
+            "primary": false,
+            "country": "US"
+          }
+        ]
+      },
+      "notificationPreferences": {
+         "doNotFax": false,
+         "doNotCall": true,
+         "doNotEmail": false,
+         "doNotMail": true,
+         "doNotSurvey": false
+      },
+      "suffix": "Sr",
+      "username": "john0987",
+      "title": "Mr",
+      "rcn": "RCN-999-888-777",
+      "roles": {
+        "role": [
+          "TECHNICAL"
+        ]
+      },
+      "addresses": {
+        "address": [
+          {
+            "zipcode": "78218",
+            "street": "5000 Walzem Road",
+            "primary": true,
+            "state": "Texas",
+            "country": "US",
+            "city": "San Antonio"
+          }
+        ]
+      },
+      "firstName": "Mike",
+      "emailAddresses": {
+        "emailAddress": [
+          {
+            "address": "mike.user@example.com",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "lastName": "James",
+      "contactNumber": "RPN-000-111-008",
+      "link": [
+        {
+          "rel": "via",
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/3784384/contacts/RPN-000-111-008"
+        }
+      ],
+      "phoneNumbers": {
+        "phoneNumber": [
+          {
+            "mask": "(###)-###-####",
+            "number": "8374384345",
+            "smsVerify": false,
+            "primary": false,
+            "country": "US"
+          }
+        ]
+      },
+      "notificationPreferences": {
+         "doNotFax": false,
+         "doNotCall": true,
+         "doNotEmail": false,
+         "doNotMail": true,
+         "doNotSurvey": false
+      },
+      "suffix": "Sr",
+      "title": "Mr",
+      "rcn": "RCN-999-888-777",
+      "roles": {
+        "role": [
+          "TECHNICAL"
+        ]
+      },
+      "firstName": "Mike",
+      "emailAddresses": {
+        "emailAddress": [
+          {
+            "address": "mike.james@example.com",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "lastName": "Thompson",
+      "contactNumber": "RPN-000-111-000",
+      "link": [
+        {
+          "rel": "via",
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/7483483/contacts/RPN-000-111-000"
+        }
+      ],
+      "phoneNumbers": {
+        "phoneNumber": [
+          {
+            "mask": "(###)-###-####",
+            "number": "99999999999",
+            "smsVerify": false,
+            "primary": false,
+            "country": "US"
+          }
+        ]
+      },
+      "notificationPreferences": {
+         "doNotFax": false,
+         "doNotCall": true,
+         "doNotEmail": false,
+         "doNotMail": true,
+         "doNotSurvey": false
+      },
+      "suffix": "N/A",
+      "title": "Mrs.",
+      "rcn": "RCN-999-888-777",
+      "roles": {
+        "role": [
+          "ADMINISTRATIVE"
+        ]
+      },
+      "lastUpdatedBy": "user1",
+      "lastUpdatedDate": "2015-04-21T18:00:00.000Z",
+      "addresses": {
+        "address": [
+          {
+            "zipcode": "78218",
+            "street": "5000 Walzem Road",
+            "primary": true,
+            "state": "Texas",
+            "country": "US",
+            "city": "San Antonio"
+          }
+        ]
+      },
+      "firstName": "Sarah",
+      "emailAddresses": {
+        "emailAddress": [
+          {
+            "address": "sarah.user@example.com",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "lastName": "Malu",
+      "contactNumber": "RPN-674-533-232",
+      "link": [
+        {
+          "rel": "via",
+          "href":
+          "https://customer.api.rackspacecloud.com/v1/customer_accounts/CLOUD/3784384/contacts/RPN-674-533-232"
+        }
+      ],
+      "phoneNumbers": {
+        "phoneNumber": [
+          {
+            "mask": "(###)-###-####",
+            "number": "7382372378",
+            "smsVerify": false,
+            "primary": false,
+            "country": "US"
+          }
+        ]
+      },
+      "notificationPreferences": {
+         "doNotFax": false,
+         "doNotCall": true,
+         "doNotEmail": false,
+         "doNotMail": true,
+         "doNotSurvey": false
+      },
+      "suffix": "Jr.",
+      "username": "katie.malu",
+      "title": "Mrs.",
+      "rcn": "RCN-999-888-777",
+      "roles": {
+        "role": [
+          "TECHNICAL"
+        ]
+      },
+      "lastUpdatedBy": "user1",
+      "lastUpdatedDate": "2015-04-21T18:00:00.000Z",
+      "addresses": {
+        "address": [
+          {
+            "zipcode": "78218",
+            "street": "5000 Walzem Road",
+            "primary": true,
+            "state": "Texas",
+            "country": "US",
+            "city": "San Antonio"
+          }
+        ]
+      },
+      "firstName": "Katie",
+      "emailAddresses": {
+        "emailAddress": [
+          {
+            "address": "katie.user@example.com",
+            "primary": true
+          }
+        ]
+      }
+    }
+  ]
+}

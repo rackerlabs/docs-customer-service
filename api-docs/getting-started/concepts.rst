@@ -26,6 +26,12 @@ managed account and cloud servers, or cloud files associated with a cloud
 account. The only link between the managed and cloud accounts is that they
 belong to the same customer.
 
+Contact
+~~~~~~~
+
+A contact is a person who is associated with a customer account. Each contact
+is uniquely identified by a number called Rackspace Person Number(RPN).
+
 Metadata
 ~~~~~~~~
 

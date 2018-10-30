@@ -1,9 +1,9 @@
-.. _update-specific-metadata:
+.. _get-a-contact:
 
-Update specific metadata
-------------------------
+Get a contact
+-------------
 
-This operation creates or updates the metadata that matches the specified key.
+This operation gets the specified contact for a customer account.
 
 .. list-table::
   :widths: 10 60
@@ -12,8 +12,8 @@ This operation creates or updates the metadata that matches the specified key.
   * - Method
     - URI
 
-  * - PUT
-    - /v1/customer_accounts/{accountType}/{accountId}/metadata/{metadataKey}
+  * - GET
+    - /v1/customer_accounts/{accountType}/{accountId}/contacts/{contactNumber}
 
 These tables show the possible response codes for this operation:
 
@@ -22,10 +22,10 @@ These tables show the possible response codes for this operation:
    :header-rows: 1
 
    * - Normal response codes:
-   * - 204 (No Content)
+   * - 200 (OK)
 
 .. list-table::
-   :widths: 799
+   :widths: 79
    :header-rows: 1
 
    * - Error response codes:
@@ -35,9 +35,8 @@ These tables show the possible response codes for this operation:
    * - 403 (Forbidden)
    * - 503 (Service Unavailable)
    * - 404 (Not Found)
-   * - 415 (Unsupported Media Type)
 
-Request
+Request:
 ^^^^^^^^
 
 This table shows the URI parameters for the request:
@@ -58,22 +57,21 @@ This table shows the URI parameters for the request:
     - String
     - Unique identifier of a Rackspace customer account.
 
-  * - {metadataKey}
+  * - {contactNumber}
     - String
-    - The unique key for a metadata entry.
+    - Unique identifier of the contact for a Rackspace customer account.
 
+This operation does not require a request body.
 
-**XML Request**
-
-.. literalinclude:: methods/requests/update-specific-metadata-requests-xml
-   :language: xml
-
-**JSON Reques:**
-
-.. literalinclude:: methods/requests/update-specific-metadata-requests-json
-   :language: json
-
-Response
+Response:
 ^^^^^^^^^
 
-This operation does not return a response body.
+**XML response:**
+
+.. literalinclude:: methods/responses/get-a-contact-response-xml
+   :language: xml
+
+**JSON response:**
+
+.. literalinclude:: methods/responses/get-a-contact-response-json
+   :language: json
