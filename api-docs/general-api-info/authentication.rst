@@ -7,8 +7,8 @@ Authentication
 Most of the REST requests against this API require the inclusion of a
 specific authorization token, supplied by the X-Auth-Token HTTP header.
 You may obtain this token by using the Rackspace Identity Service
-and supplying valid credentials. For more information about obtaining an
-authorization token, refer to
+and supplying valid credentials. For more information about obtaining
+an authorization token, refer to
 http://docs.rackspace.com/auth/api/v2.0/auth-client-devguide/content/QuickStart-000.html.
 
 The Rackspace Identity Service is a RESTful web service. It is the entry
@@ -29,4 +29,4 @@ Here is an example of a request:
         X-Auth-Token: 3c04f8a5-b730-471f-905f-5e00fa24824c
 
 For more information, see
-:ref: `Authenticate to the Rackspace Cloud <authenticate-to-cloud>`.
+:ref:`Authenticate to the Rackspace Cloud <authenticate-to-cloud>`.
