@@ -29,4 +29,4 @@ Here is an example of a request:
         X-Auth-Token: 3c04f8a5-b730-471f-905f-5e00fa24824c
 
 For more information, see
-:ref: `Authenticate to the Rackspace Cloud <authenticate-to-cloud>`.
+:ref:`Authenticate to the Rackspace Cloud <authenticate-to-cloud>`.
