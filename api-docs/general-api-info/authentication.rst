@@ -6,12 +6,12 @@ Authentication
 
 Most of the REST requests against this API require the inclusion of a
 specific authorization token, supplied by the X-Auth-Token HTTP header.
-You may obtain this token by using the Rackspace Identity Service
+You may obtain this token by using the Identity Service
 and supplying valid credentials. For more information about obtaining
 an authorization token, refer to
 http://docs.rackspace.com/auth/api/v2.0/auth-client-devguide/content/QuickStart-000.html.
 
-The Rackspace Identity Service is a RESTful web service. It is the entry
+The Identity Service is a RESTful web service. It is the entry
 point to all Rackspace Cloud APIs.
 
 Most calls made against this API require the addition of an authorization
