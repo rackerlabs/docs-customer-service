@@ -20,7 +20,7 @@ existing cloud servers) to set up as nodes for your load balancer.
    .. note::
       You can also create a cloud server by using the Cloud Servers API. For
       details, see the
-      `Cloud Servers API guide <http://developer.rackspace.com/>`__.
+      `Cloud Servers API guide <https://developer.rackspace.com/>`__.
 
 #. At the top of the page, click **Servers > Cloud Servers**.
 
