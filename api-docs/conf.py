@@ -42,14 +42,21 @@ except ImportError:
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
-    'sphinx.ext.extlinks'
+    'sphinx.ext.extlinks',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'hoverxref.extension',
+    'notfound.extension',
+    'sphinx.ext.coverage',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.viewcode'
 ]
 
 if spelling is not None:
     extensions.append('sphinxcontrib.spelling')
 
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # The suffix of source filenames.
 source_suffix = ['.rst']
@@ -69,13 +76,6 @@ else:
 # The master toctree document.
 master_doc = 'index'
 
-# The builder to use when running via the deconst preparer
-# builder = 'deconst-single'
-builder = 'deconst-serial'
-
-# Exclude content from elastic search index
-deconst_default_unsearchable = True
-
 # linkcheck options
 linkcheck_ignore = ['https://pages.github.rackspace.com*',
                     'https://pitchfork.eco.rackspace.com*']
@@ -84,6 +84,7 @@ linkcheck_anchors = False
 # General information about the project.
 project = 'Customer Management Service'
 copyright = '2018, Rackspace'
+author = 'Rackspace'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -196,10 +197,13 @@ else:
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-# html_theme_options = {}
+html_theme_options = {
+    "collapse_navigation" : False
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
-# html_theme_path = []
+import sphinx_rtd_theme
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -216,20 +220,13 @@ html_short_title = '<projectName> v<release>'
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-# html_favicon = None
+html_favicon = '_static/favicons/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-html_context = {
-    'css_files': [
-        '_static/theme_overrides.css',  # overrides wide tables in RTD theme
-        '_static/bespoke.css',  # custom CSS styling
-        '_static/bolditalic.css',  # bolditalic styling
-        ],
-    }
+html_style = 'css/styles.css'
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -238,7 +235,7 @@ html_context = {
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-# html_last_updated_fmt = 'January 25, 2016'
+html_last_updated_fmt = '%b %d, %Y'
 # html_last_updated_fmt = |today|
 
 # Custom sidebar templates, maps document names to template names.
