@@ -42,14 +42,7 @@ except ImportError:
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
-    'sphinx.ext.extlinks',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'hoverxref.extension',
-    'notfound.extension',
-    'sphinx.ext.coverage',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.viewcode'
+    'sphinx.ext.extlinks'
 ]
 
 if spelling is not None:
@@ -84,7 +77,6 @@ linkcheck_anchors = False
 # General information about the project.
 project = 'Customer Management Service'
 copyright = '2018, Rackspace'
-author = 'Rackspace'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -235,7 +227,7 @@ html_style = 'css/styles.css'
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%b %d, %Y'
+# html_last_updated_fmt = 'January 25, 2016'
 # html_last_updated_fmt = |today|
 
 # Custom sidebar templates, maps document names to template names.
