@@ -199,11 +199,11 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = '<projectName> v<release> documentation'
+html_title = "Rackspace Customer Management Service API 4.24.0"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = None
-html_short_title = '<projectName> v<release>'
+html_short_title = "Rackspace Customer Management Service API 4.24.0"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
