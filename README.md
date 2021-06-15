@@ -1,5 +1,5 @@
 
-# Rackspace Customer Management Service API documentation 
+# Rackspace Customer Management Service API documentation
 
 This repository contains the source files that generate the following
 Customer Management Service API documentation:
@@ -8,7 +8,15 @@ Customer Management Service API documentation:
 * General API information
 * API reference
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4034968e-bb45-446a-a575-24d9fab61173/deploy-status)](https://app.netlify.com/sites/docs-customer-service/deploys)
 
+## Local Setup
+
+`npm i -g netlify-cli`
+`netlify init`
+`netlify build`
+`netlify dev`
+`netlify deploy`
 
 When you commit changes to the master branch of this repository, the
 [Strider CI/CD build job](https://build.developer.rackspace.com/rackerlabs/%/)
